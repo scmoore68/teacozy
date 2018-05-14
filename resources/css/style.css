@@ -34,7 +34,7 @@ h4 {
   position: fixed;
   z-index: 5;
   top: 0;
-  width: 100%;
+  width: 1300px;
 }
 
 .header img {
@@ -52,12 +52,13 @@ h4 {
 .main-container {
   display: flex;
   margin-top: 70px;
-  border: 1px solid black
+  border: 1px solid black;
   flex-direction: column;
   flex-wrap: wrap;
   background-color: black;
   align-content: center;
   justify-content: center;
+  width: 1300px;
 }
 
 .mission-banner {
@@ -84,7 +85,7 @@ h4 {
 .flavors-text {
   display: flex;
   flex-direction: column;
-  width: 1000px;
+  width: 1300px;
   align-items: center;
 }
 
@@ -96,7 +97,6 @@ h4 {
   width: 1000px;
   align-items: center;
   align-self: center;
-
 }
 
 .flavor {
@@ -130,7 +130,7 @@ h4 {
   width: 980px;
   display: flex;
   flex-direction: row;
-  align-items: space-between;
+  align-items: center;
   justify-content: space-between;
   background-color: transparent;
 }
@@ -154,7 +154,8 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1200px;
+  justify-content: center;
+  width: 1300px;
 }
 
 .contact {
