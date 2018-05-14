@@ -1,9 +1,11 @@
 * {
   font-family: Helvetica, sans-serif;
   color: seashell;
-  opacity: 0.9;
   font-size: 22px;
   background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  line-height: 0;
 }
 
 h1 {
@@ -44,12 +46,12 @@ h4 {
 .header nav span {
   display: inline-block;
   text-decoration: underline;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .main-container {
   display: flex;
-  margin-top: 50px;
+  margin-top: 70px;
   border: 1px solid black
   flex-direction: column;
   flex-wrap: wrap;
@@ -65,7 +67,6 @@ h4 {
   align-self: center;
   display: flex;
   justify-content: center;
-  height: 700px;
   flex-direction: column;
   align-items: flex-end;
 }
@@ -136,6 +137,8 @@ h4 {
 
 .locations h2 {
   background-color: transparent;
+  line-height: 0;
+  padding-bottom: 15px;
 }
 
 .location {
@@ -145,13 +148,6 @@ h4 {
   width: 300px;
   background-color: black;
   opacity: 1;
-}
-
-.box {
-  width: 200px;
-  height: 200px;
-  border: 1px solid green;
-  align-self: flex-start;
 }
 
 .contact-copy {
@@ -166,10 +162,9 @@ h4 {
   flex-direction: column;
   align-items: center;
   height: 200px;
-  line-height: 0;
 }
 
 .copyright {
   align-self: flex-start;
-  padding: 20px;
+  padding-left: 20px;
 }
